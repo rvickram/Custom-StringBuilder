@@ -11,7 +11,11 @@ int main() {
     string finishedString = "";
 
     append(finishedString, "Hello");
-    append(finishedString, " dude.");
+    append(finishedString, " this");
+    append(finishedString, " is");
+    append(finishedString, " my");
+    append(finishedString, " appended");
+    append(finishedString, " string.");
 
     cout << "String is: " << finishedString << endl;
 
